@@ -1,24 +1,22 @@
-ul {
+.boxes {
     display: flex;
-    padding: 0;
-    border: 2px solid #333;
+    justify-content: space-around;
 }
 
-.dropdown ul {
-    flex-direction: column;
-    background-color: #333;
-    color: white;
-    text-align: center;
+.box {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
 }
 
-ul li {
-    list-style-type: none;
-    width: 25%;
-    height: 30px;
-    text-align: center;
-    border: 2px solid #333;
+.new-color {
+    background-color: pink;
 }
 
-.dropdown ul li {
+p {
     width: 100%;
+}
+
+.hide {
+    display: none;
 }
